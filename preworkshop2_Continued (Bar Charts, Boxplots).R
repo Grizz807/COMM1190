@@ -8,6 +8,8 @@ ncols
 # Extract the data for staff
 staff <- subset(data, Customers=="Staff")
 staff
+
+
 nrowsStaff <- nrow(staff)
 ncolsStaff <- ncol(staff)
 nrowsStaff
