@@ -56,3 +56,4 @@ points(best_cp, bestSubsetSummary$cp[best_cp], col = "red", pch ="x")
 plot(bestSubsetSummary$bic, xlab = "Number of Variables", ylab = "BIC", 
      main = "No variables vs BIC", type = "l")
 points(best_bic, bestSubsetSummary$bic[best_bic], col = "red", pch ="x")
+
