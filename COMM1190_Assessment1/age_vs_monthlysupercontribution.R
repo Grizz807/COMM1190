@@ -9,5 +9,5 @@ total_months <- data$App_Tenure
 
 per_month <- supercontribution / total_months
 
-plot(data$C_Age,per_month, type = 'h')
+plot(data$C_Age,per_month, type = 'p')
 
