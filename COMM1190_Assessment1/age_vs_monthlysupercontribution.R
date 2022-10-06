@@ -10,4 +10,5 @@ total_months <- data$App_Tenure
 per_month <- supercontribution / total_months
 
 plot(data$C_Age,per_month, type = 'p')
+lines(lowess(data$C_Age,per_month),col = "red")
 
